@@ -66,7 +66,7 @@
 /* Section 1 */
 .section1 {
         width: 100vw;
-        min-height: 130vh;
+        min-height: 110vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -252,8 +252,8 @@
 /* Responsive */
 
 @media screen and (max-width: 1235px) {
-        .section1 {
-                padding-top: 95px;
+        .section1 h1 {
+                font-size: 3rem;
         }
 }
 @media screen and (max-width: 1000px) {
@@ -264,6 +264,9 @@
                 width: 100%;
                 margin: 20px;
         }
+        .section1 h1 {
+                font-size: 2rem;
+        }
 }
 @media screen and (max-width: 750px) {
         .navbar .navlinks a {
@@ -272,8 +275,14 @@
         }
 }
 @media screen and (max-width: 550px) {
+        .navbar {
+                padding: 10px 20px;
+        }
+        .navbar .navlinks a {
+                font-size: 1rem;
+        }
         .section1 h1 {
-                font-size: 3rem;
+                font-size: 2rem;
         }
         .section1 .stars img {
                 height: 20px;

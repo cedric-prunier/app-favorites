@@ -256,6 +256,13 @@
         .section1 #wallpaper {
                 height: 300px;
         }
+        .section2 .avis-details {
+                flex-direction: column;
+        }
+        .section2 .avis-details div {
+                width: 100%;
+                margin: 20px;
+        }
 }
 @media screen and (max-width: 550px) {
         .section1 h1 {

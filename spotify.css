@@ -173,6 +173,12 @@ body {
         align-items: center;
         width: 50vw;
 }
+.section1 .left .liens img {
+        background-color: rgb(17, 207, 112);
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+}
 .section1 .left div {
         padding: 20px;
 }

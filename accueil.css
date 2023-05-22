@@ -33,6 +33,7 @@
         top: 0;
         left: 0;
         width: 100vw;
+        background-color: rgba(0, 0, 0, 0.475);
         backdrop-filter: blur(7px);
 }
 .navbar .logo a {
@@ -44,7 +45,10 @@
         font-size: 2rem;
         font-weight: 600;
         margin: 0 50px;
-        color: rgb(0, 0, 0);
+        color: rgb(253, 253, 253);
+}
+.navbar .navlinks a:hover {
+        color: rgb(48, 167, 222);
 }
 .navbar:hover {
         background-color: rgba(0, 0, 0, 0.739);
@@ -52,7 +56,9 @@
 .navbar:hover a {
         color: rgb(255, 255, 255);
 }
-
+.navbar .logo:hover {
+        transform: scale(1.2);
+}
 /* Section 1 */
 .section1 {
         width: 100vw;
@@ -63,6 +69,7 @@
         justify-content: center;
         background-color: rgba(245, 245, 245, 0.605);
 }
+
 .section1 {
         width: 100vw;
 }
@@ -70,6 +77,7 @@
         font-family: "poppins-semibold";
         font-size: 5rem;
         padding: 50px;
+        text-align: center;
 }
 .section1 .stars {
         display: flex;
@@ -83,11 +91,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        background: linear-gradient(to bottom, #fbfbfb, #000000);
+        color: rgb(0, 0, 0);
 }
 .section2 h1 {
         margin-top: 50px;
         font-size: 5rem;
         font-family: "poppins-semibold";
+        text-align: center;
 }
 .section2 .capture-ecran {
         text-align: center;
@@ -108,8 +119,11 @@
         font-size: 2.5rem;
         font-family: "poppins-bold";
         color: rgb(48, 167, 222);
+        margin-bottom: 50px;
 }
-
+.section2 #text1 {
+        color: #ffffff;
+}
 /* Sliders */
 
 .leslide {
@@ -156,4 +170,32 @@
 }
 .leslide img:hover {
         transform: translateZ(20px);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1250px) {
+        .section1 {
+                padding-top: 100px;
+        }
+}
+@media screen and (max-width: 1000px) {
+        .section1 #wallpaper {
+                height: 300px;
+        }
+}
+@media screen and (max-width: 550px) {
+        .section1 h1 {
+                font-size: 3rem;
+        }
+        .section1 .stars img {
+                height: 20px;
+                margin: 10px;
+        }
+        .section2 h1 {
+                font-size: 3rem;
+        }
+        .section1 #wallpaper {
+                height: 200px;
+        }
 }

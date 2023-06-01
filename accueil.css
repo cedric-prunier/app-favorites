@@ -294,4 +294,7 @@
         .section1 #wallpaper {
                 height: 200px;
         }
+        .section2 .avis-details {
+                align-items: center;
+        }
 }

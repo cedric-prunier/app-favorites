@@ -67,6 +67,7 @@
 .section1 {
         width: 100vw;
         min-height: 110vh;
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -280,6 +281,9 @@
         }
         .navbar .navlinks a {
                 font-size: 1rem;
+        }
+        .section1 {
+                margin-top: 0px;
         }
         .section1 h1 {
                 font-size: 2rem;

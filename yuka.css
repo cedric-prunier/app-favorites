@@ -628,6 +628,9 @@
                 height: 300px;
         }
         .section2 .titre {
+                margin-top: 100px;
+        }
+        .section2 .titre {
                 font-size: 1.5rem;
                 padding: 0 30px;
         }
